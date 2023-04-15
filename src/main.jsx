@@ -6,7 +6,7 @@ import { RecipesPage } from "./pages/RecipesPage";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ChakraProvider>
-      <Box minW={"100vw"} minH={"100vh"} bg={"green.100"}>
+      <Box minH={"100vh"} bg={"green.100"}>
         <RecipesPage />
       </Box>
     </ChakraProvider>
